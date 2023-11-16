@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Right from "./icons/right";
+import Right from "../icons/right";
 
 export default function Hero() {
     return (
@@ -13,7 +13,7 @@ export default function Hero() {
                         Pizza
                     </span>
                 </h1>
-                <p className="my-4 text-gray-500 text-sm">
+                <p className="my-6 text-gray-500 text-sm">
                     Pizza is the missing piece that makes every day complete, a simple yet delicious joy in life
                 </p>
                 <div className="flex gap-4 text-sm">
